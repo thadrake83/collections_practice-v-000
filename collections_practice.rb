@@ -30,3 +30,8 @@ def kesha_maker(array)
     x[2] = "$"
   end
 end
+def find_a(array)
+  array.find do |x|
+    x.starts_with? == "a"
+  end
+end
