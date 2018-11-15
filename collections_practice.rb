@@ -15,3 +15,10 @@ def sort_array_char_count(array)
     end
   end
 end
+def swap_elements(array)
+ swap = []
+  swap << array[0]
+  swap << array[2]
+  swap << array[1]
+  swap
+end
