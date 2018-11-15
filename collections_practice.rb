@@ -8,9 +8,9 @@ def sort_array_char_count(array)
   array.sort do |a, b|
     if a == begin
       0
-    elsif a < b 
+    elsif a < b
       -1
-    elsif a > b 
-      1      
-    end 
+    elsif a > b
+      1
+    end
 end
