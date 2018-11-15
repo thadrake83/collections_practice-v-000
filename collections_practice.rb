@@ -22,3 +22,6 @@ def swap_elements(array)
   swap << array[1]
   swap
 end
+def reverse_array(array)
+  array.sort.reverse 
+end
