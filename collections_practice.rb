@@ -5,5 +5,12 @@ def sort_array_desc(array)
   array.sort.reverse
 end
 def sort_array_char_count(array)
-  array.sort.length
+  array.sort do |a, b|
+    if a == begin
+      0
+    elsif a < b 
+      -1
+    elsif a > b 
+      1      
+    end 
 end
